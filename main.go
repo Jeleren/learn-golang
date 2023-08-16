@@ -10,6 +10,7 @@ package main
 在package声明后使用import导入需要的包
 */
 import (
+	"fmt"
 	"osContent"
 )
 
@@ -17,6 +18,6 @@ import (
 main包中的main函数作为程序逻辑的开始
 */
 func main() {
-	// fmt.Println("helloworld!")
+	fmt.Println("helloworld!")
 	osContent.LogOs()
 }
